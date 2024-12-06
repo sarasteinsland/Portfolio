@@ -1,0 +1,112 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/backend/images/Merch/trump_book.cw06pjn4n0.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Merch\trump_book.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cw06pjn4n0"},{"Name":"integrity","Value":"sha256-9GAmUm\u002BbxWfH6JSGmVeX0bfqjlD3NiZP5hFBpCnpemI="},{"Name":"label","Value":"_content/backend/images/Merch/trump_book.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"59759"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00229GAmUm\u002BbxWfH6JSGmVeX0bfqjlD3NiZP5hFBpCnpemI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 15:52:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/images/Merch/trump_book.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Merch\trump_book.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9GAmUm\u002BbxWfH6JSGmVeX0bfqjlD3NiZP5hFBpCnpemI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"59759"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00229GAmUm\u002BbxWfH6JSGmVeX0bfqjlD3NiZP5hFBpCnpemI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 15:52:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/images/Merch/trump_flag.8ac0ixz6b5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Merch\trump_flag.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8ac0ixz6b5"},{"Name":"integrity","Value":"sha256-MGSQQCLhbDU5gOMDuuUibGfMY7VoHqon1Zx1Ptdeq7s="},{"Name":"label","Value":"_content/backend/images/Merch/trump_flag.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"130370"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022MGSQQCLhbDU5gOMDuuUibGfMY7VoHqon1Zx1Ptdeq7s=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 15:49:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/images/Merch/trump_flag.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Merch\trump_flag.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MGSQQCLhbDU5gOMDuuUibGfMY7VoHqon1Zx1Ptdeq7s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"130370"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022MGSQQCLhbDU5gOMDuuUibGfMY7VoHqon1Zx1Ptdeq7s=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 15:49:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/images/Merch/trump_hat.jge7ktu08q.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Merch\trump_hat.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jge7ktu08q"},{"Name":"integrity","Value":"sha256-DbPh/iD8uo\u002B3B2aYRqXJrjes/w9G8Jsw22p1vXJ6GKo="},{"Name":"label","Value":"_content/backend/images/Merch/trump_hat.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"67062"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DbPh/iD8uo\u002B3B2aYRqXJrjes/w9G8Jsw22p1vXJ6GKo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 15:48:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/images/Merch/trump_hat.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Merch\trump_hat.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DbPh/iD8uo\u002B3B2aYRqXJrjes/w9G8Jsw22p1vXJ6GKo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"67062"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DbPh/iD8uo\u002B3B2aYRqXJrjes/w9G8Jsw22p1vXJ6GKo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 15:48:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/images/Merch/trump_hoodie.11akh4ydo3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Merch\trump_hoodie.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"11akh4ydo3"},{"Name":"integrity","Value":"sha256-O\u002B/VXTZvPz/vJv8rzUdJd6XZcm4hcVwnYzS5K7kkFBA="},{"Name":"label","Value":"_content/backend/images/Merch/trump_hoodie.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"149575"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022O\u002B/VXTZvPz/vJv8rzUdJd6XZcm4hcVwnYzS5K7kkFBA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 15:51:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/images/Merch/trump_hoodie.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Merch\trump_hoodie.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-O\u002B/VXTZvPz/vJv8rzUdJd6XZcm4hcVwnYzS5K7kkFBA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"149575"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022O\u002B/VXTZvPz/vJv8rzUdJd6XZcm4hcVwnYzS5K7kkFBA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 15:51:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/images/Merch/trump_keychain.9l2mpyxbrq.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Merch\trump_keychain.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9l2mpyxbrq"},{"Name":"integrity","Value":"sha256-Y/gECRkXFdmraTtsXBIPYwFn3n7wW1vLyP\u002ByagxlOOo="},{"Name":"label","Value":"_content/backend/images/Merch/trump_keychain.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"32008"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Y/gECRkXFdmraTtsXBIPYwFn3n7wW1vLyP\u002ByagxlOOo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 15:50:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/images/Merch/trump_keychain.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Merch\trump_keychain.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Y/gECRkXFdmraTtsXBIPYwFn3n7wW1vLyP\u002ByagxlOOo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"32008"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Y/gECRkXFdmraTtsXBIPYwFn3n7wW1vLyP\u002ByagxlOOo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 15:50:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/images/Merch/trump_mug.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Merch\trump_mug.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8RqA/cRlmwVV19stk1c/sPJUbGgdabFSqgoqZ4epqPI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"27122"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00228RqA/cRlmwVV19stk1c/sPJUbGgdabFSqgoqZ4epqPI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 15:48:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/images/Merch/trump_mug.tppzyndnnm.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Merch\trump_mug.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tppzyndnnm"},{"Name":"integrity","Value":"sha256-8RqA/cRlmwVV19stk1c/sPJUbGgdabFSqgoqZ4epqPI="},{"Name":"label","Value":"_content/backend/images/Merch/trump_mug.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"27122"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00228RqA/cRlmwVV19stk1c/sPJUbGgdabFSqgoqZ4epqPI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 15:48:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/images/Merch/trump_phone_case.7rnqyzuk7s.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Merch\trump_phone_case.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7rnqyzuk7s"},{"Name":"integrity","Value":"sha256-PVfJC/lS9x2JYeXG1yZCGlCdroLesCOYyDXy2dK4TJE="},{"Name":"label","Value":"_content/backend/images/Merch/trump_phone_case.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"218556"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022PVfJC/lS9x2JYeXG1yZCGlCdroLesCOYyDXy2dK4TJE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 15:52:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/images/Merch/trump_phone_case.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Merch\trump_phone_case.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PVfJC/lS9x2JYeXG1yZCGlCdroLesCOYyDXy2dK4TJE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"218556"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022PVfJC/lS9x2JYeXG1yZCGlCdroLesCOYyDXy2dK4TJE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 15:52:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/images/Merch/trump_tshirt.fq94xtwwng.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Merch\trump_tshirt.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fq94xtwwng"},{"Name":"integrity","Value":"sha256-R18mYHw/lWQIywW6FwCDGUsUy1xvIYP4nLWQ\u002By7334E="},{"Name":"label","Value":"_content/backend/images/Merch/trump_tshirt.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37540"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022R18mYHw/lWQIywW6FwCDGUsUy1xvIYP4nLWQ\u002By7334E=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 15:45:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/images/Merch/trump_tshirt.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Merch\trump_tshirt.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-R18mYHw/lWQIywW6FwCDGUsUy1xvIYP4nLWQ\u002By7334E="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"37540"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022R18mYHw/lWQIywW6FwCDGUsUy1xvIYP4nLWQ\u002By7334E=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 15:45:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rDgg2jlTfem/VGoqeGF8gYmYzHPWVgjVtkyLXscB\u002BA4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"250"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022rDgg2jlTfem/VGoqeGF8gYmYzHPWVgjVtkyLXscB\u002BA4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 10:05:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/index.sq9gepu66l.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sq9gepu66l"},{"Name":"integrity","Value":"sha256-rDgg2jlTfem/VGoqeGF8gYmYzHPWVgjVtkyLXscB\u002BA4="},{"Name":"label","Value":"_content/backend/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"250"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022rDgg2jlTfem/VGoqeGF8gYmYzHPWVgjVtkyLXscB\u002BA4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 10:05:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
