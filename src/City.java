@@ -42,4 +42,9 @@ public class City {
     private Double parsePopulation(String value) {
         return ((Objects.equals(value, "")) ? 0.0 : Double.parseDouble(value));
     }
+
+    @Override
+    public String toString() {
+        return city + ", " + country + " (Pop: " + population + ") + (Lat: " + latitude + ")";
+    }
 }
