@@ -1,10 +1,15 @@
-public class UnOptimizedBubbleSort {
+package BubbleSort;
+
+import Model.City;
+
+public class OptimizedBubbleSort {
     public City[] sort(City[] cities) {
         boolean isSorted = false;
+        int n = cities.length;
 
         while (!isSorted) {
             isSorted = true;
-            for (int i = 1; i < cities.length; i++) {
+            for (int i = 1; i < n; i++) {
                 if (cities[i - 1].latitude < cities[i].latitude) {
                     City temp = cities[i - 1];
                     cities[i - 1] = cities[i];
@@ -12,6 +17,7 @@ public class UnOptimizedBubbleSort {
                     isSorted = false;
                 }
             }
+            n--;
         }
 
         for (City city : cities) {
@@ -21,3 +27,4 @@ public class UnOptimizedBubbleSort {
         return cities;
     }
 }
+
