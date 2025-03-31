@@ -1,3 +1,5 @@
+package Model;
+
 import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -5,7 +7,7 @@ import java.util.regex.Pattern;
 public class City {
     String city;
     String cityAscii;
-    Double latitude;
+    public Double latitude;
     Double longitude;
     String country;
     String iso2;

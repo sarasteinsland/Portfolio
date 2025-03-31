@@ -1,3 +1,7 @@
+package Utils;
+
+import Model.City;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -10,8 +14,9 @@ public class CSVParser {
     }
 
     public void generateCities() {
-        try (Scanner scanner = new Scanner(new File("files/worldcities.csv"))) {
-            System.out.println("Prøv på nytt !! Du klarer det!!");
+        try {
+            File file = new File("files/worldcities.csv");
+            Scanner scanner = new Scanner(file);
             scanner.nextLine();
             while (scanner.hasNextLine()) {
                 City city = new City(scanner.nextLine());
