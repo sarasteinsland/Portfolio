@@ -20,10 +20,6 @@ public class OptimizedBubbleSort {
             n--;
         }
 
-        for (City city : cities) {
-            System.out.println(city);
-        }
-
         return cities;
     }
 }

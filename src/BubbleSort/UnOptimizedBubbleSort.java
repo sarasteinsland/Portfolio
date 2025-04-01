@@ -18,10 +18,6 @@ public class UnOptimizedBubbleSort {
             }
         }
 
-        for (City city : cities) {
-            System.out.println(city);
-        }
-
         return cities;
     }
 }
