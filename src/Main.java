@@ -19,10 +19,8 @@ void main() throws InterruptedException {
 
     Thread.sleep(2000);
 
-    /*
     start = System.currentTimeMillis();
     unOptimizedBubbleSort.sort(worldCities);
     end = System.currentTimeMillis();
     System.out.printf("BubbleSort.UnOptimizedBubbleSort: %d ms\n", (end - start));
-    */
 }
