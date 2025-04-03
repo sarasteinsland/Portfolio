@@ -5,12 +5,11 @@ import Model.City;
 import java.util.Arrays;
 
 
-
 public class MergeSort {
 
 
-    public void sort(City[]cities){
-        if (cities.length > 1){
+    public void sort(City[] cities) {
+        if (cities.length > 1) {
             int mid = cities.length / 2;
 
 
