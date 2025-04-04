@@ -1,4 +1,5 @@
 import InsertionSort.InsertionSort;
+import QuickSort.QuickSort;
 import Utils.CSVParser;
 import Model.City;
 import BubbleSort.OptimizedBubbleSort;
@@ -15,13 +16,22 @@ void main() throws InterruptedException {
     City[] worldCities2 = Arrays.copyOf(worldCities, worldCities.length);
     City[] worldCities3 = Arrays.copyOf(worldCities, worldCities.length);
     City[] worldCities4 = Arrays.copyOf(worldCities, worldCities.length);
+    City[] worldCities5 = Arrays.copyOf(worldCities, worldCities.length);
 
     UnOptimizedBubbleSort unOptimizedBubbleSort = new UnOptimizedBubbleSort();
     OptimizedBubbleSort optimizedBubbleSort = new OptimizedBubbleSort();
     InsertionSort insertionSort = new InsertionSort();
     MergeSort mergeSort = new MergeSort();
+    QuickSort quickSort = new QuickSort();
 
     timer.start();
+
+    System.out.println("Quick sort starting...");
+    timer.interval();
+    quickSort.sort(worldCities5);
+    timer.printInterval("Quick sort:");
+    timer.stopTimer();
+    Thread.sleep(2000);
 
     System.out.println("Optimized BubbleSort starting...");
     timer.interval();
@@ -46,5 +56,5 @@ void main() throws InterruptedException {
     mergeSort.sort(worldCities4);
     timer.printInterval("Merge sort:");
 
-    timer.stopTimer();
+
 }
