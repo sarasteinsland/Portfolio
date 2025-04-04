@@ -23,6 +23,7 @@ void main() throws InterruptedException {
 
     timer.start();
 
+    /*
     System.out.println("Optimized BubbleSort starting...");
     timer.interval();
     optimizedBubbleSort.sort(worldCities);
@@ -40,11 +41,13 @@ void main() throws InterruptedException {
     insertionSort.sort(worldCities3);
     timer.printInterval("Insertion sort:");
     Thread.sleep(2000);
+    */
 
     System.out.println("Merge sort starting...");
     timer.interval();
     mergeSort.sort(worldCities4);
     timer.printInterval("Merge sort:");
+    System.out.println("Merges: " + mergeSort.merges);
 
     timer.stopTimer();
 }
