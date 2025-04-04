@@ -6,12 +6,11 @@ import java.util.Arrays;
 
 
 public class MergeSort {
-
+    public int merges = 0;
 
     public void sort(City[] cities) {
         if (cities.length > 1) {
             int mid = cities.length / 2;
-
 
             City[] left = Arrays.copyOfRange(cities, 0, mid);
             City[] right = Arrays.copyOfRange(cities, mid, cities.length);
@@ -41,5 +40,6 @@ public class MergeSort {
         while (j < right.length) {
             cities[k++] = right[j++];
         }
+        merges++;
     }
 }

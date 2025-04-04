@@ -55,6 +55,7 @@ void main() throws InterruptedException {
     timer.interval();
     mergeSort.sort(worldCities4);
     timer.printInterval("Merge sort:");
+    System.out.println("Merges: " + mergeSort.merges);
 
 
 }
