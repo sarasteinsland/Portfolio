@@ -1,41 +1,80 @@
 package QuickSort;
 
 import Model.City;
-
-import static java.util.Collections.swap;
+import java.util.Random;
 
 public class QuickSort {
-    public void sort(City[]cities) { sort(cities, 0, cities.length - 1);}
+    public enum PivotStrategy {
+        FIRST,
+        LAST,
+        RANDOM
+    }
 
-    public void sort(City[] cities, int low, int high){
-        if (low >= 0 && low < high){
-            var pivot = partition(cities, low, high);
+    private PivotStrategy strategy;
+    private int comparisons = 0;
 
-            sort(cities, low, pivot);
-            sort(cities, pivot + 1, high);
+    public QuickSort(PivotStrategy strategy) {
+        this.strategy = strategy;
+    }
+
+    public int getComparisons() {
+        return comparisons;
+    }
+
+    public void sort(City[] cities) {
+        comparisons = 0;
+        sort(cities, 0, cities.length - 1);
+    }
+
+    private void sort(City[] cities, int low, int high) {
+        if (low < high) {
+            int pivotIndex = partition(cities, low, high);
+            sort(cities, low, pivotIndex);
+            sort(cities, pivotIndex + 1, high);
         }
     }
-    int partition(City[] cities, int low, int high){
-        var pivot = cities[low].latitude;
-        var left = low - 1;
-        var right = high + 1;
 
-        while (true){
-            do{
-                left = left + 1;
+    private int partition(City[] cities, int low, int high) {
+        choosePivot(cities, low, high);
+        double pivot = cities[low].latitude;
+        int left = low - 1;
+        int right = high + 1;
+
+        while (true) {
+            do {
+                left++;
+                comparisons++;
             } while (cities[left].latitude < pivot);
-            do{
-                right = right - 1;
+
+            do {
+                right--;
+                comparisons++;
             } while (cities[right].latitude > pivot);
 
-            if(left >= right){
+            if (left >= right) {
                 return right;
             }
-//            swap(cities, left, right);
+
             City temp = cities[left];
             cities[left] = cities[right];
             cities[right] = temp;
+        }
+    }
+
+    private void choosePivot(City[] cities, int low, int high) {
+        switch (strategy) {
+            case LAST -> swap(cities, low, high);
+            case RANDOM -> {
+                int randomIndex = new Random().nextInt(high - low + 1) + low;
+                swap(cities, low, randomIndex);
+            }
 
         }
+    }
+
+    private void swap(City[] cities, int i, int j) {
+        City temp = cities[i];
+        cities[i] = cities[j];
+        cities[j] = temp;
     }
 }
