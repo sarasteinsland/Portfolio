@@ -17,7 +17,8 @@ public class City {
     Double population;
     Integer id;
     public City(String data) {
-        // Regex to split CSV-like format with quotes
+
+        // Regex for å splitte CSV-lignende format med anførselstegn
         Pattern pattern = Pattern.compile("\"([^\"]*)\"");
         Matcher matcher = pattern.matcher(data);
 
@@ -28,7 +29,7 @@ public class City {
             fields[i++] = matcher.group(1);
         }
 
-        // Assign values
+        // Satte verdier
         this.city = fields[0];
         this.cityAscii = fields[1];
         this.latitude = Double.parseDouble(fields[2]);

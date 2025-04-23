@@ -11,11 +11,11 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        // Initialiserer parser og timer
+
         CSVParser parser = new CSVParser();
         Timer timer = new Timer();
 
-        // Henter byene fra CSV
+
         City[] worldCities = parser.getCities();
 
 
