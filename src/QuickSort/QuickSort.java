@@ -3,6 +3,8 @@ package QuickSort;
 import Model.City;
 import java.util.Random;
 
+// Kode referert til:
+// https://github.com/kristiania/PG4200/blob/main/src/java/data/algorithms/sort/QuickSortAlgorithm.java
 public class QuickSort {
     public enum PivotStrategy {
         FIRST,

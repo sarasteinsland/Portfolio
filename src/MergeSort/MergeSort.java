@@ -5,6 +5,8 @@ import Model.City;
 import java.util.Arrays;
 
 
+// Kode referert til:
+// https://github.com/kristiania/PG4200/blob/main/src/java/data/algorithms/sort/MergeSortAlgorithm.java
 public class MergeSort {
     public int merges = 0;
 

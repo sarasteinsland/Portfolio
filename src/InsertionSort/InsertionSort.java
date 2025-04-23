@@ -2,6 +2,8 @@ package InsertionSort;
 
 import Model.City;
 
+// Kode referert til:
+// https://github.com/kristiania/PG4200/blob/main/src/java/data/algorithms/sort/InsertionSortAlgorithm.java
 public class InsertionSort {
 
     public void sort(City[] cities) {
