@@ -12,7 +12,7 @@ public class QuickSort {
         RANDOM
     }
 
-    private PivotStrategy strategy;
+    private final PivotStrategy strategy;
     private int comparisons = 0;
 
     public QuickSort(PivotStrategy strategy) {
