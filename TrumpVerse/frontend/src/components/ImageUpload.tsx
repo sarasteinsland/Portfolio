@@ -1,62 +1,74 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import ImageUploadService from "../Services/ImageUploadService";
+import axios from "axios";
+
+interface UploadResponse {
+    fileName: string;  
+}
 
 const ImageUpload = () => {
-  const [file, setFile] = useState<File | null>(null);
-  const [message, setMessage] = useState<string | null>(null);
+    const [selectedImage, setSelectedImage] = useState<File | null>(null);
+    const [uploading, setUploading] = useState(false);
+    const [uploadResult, setUploadResult] = useState<string | null>(null);
+    const [error, setError] = useState<string | null>(null);
+    const [merchandise, setMerchandise] = useState({
+        name: '',
+        description: '',
+        price: 0,
+        image: '', 
+    });
 
-  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    if (event.target.files) {
-      setFile(event.target.files[0]);
-    }
-  };
+    const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const file = e.target.files?.[0];
+        if (file) {
+            setSelectedImage(file);
+            setUploadResult(null);
+            setError(null);
+        }
+    };
 
-  const handleUpload = async () => {
-    if (!file) {
-      setMessage("Please select a file to upload.");
-      return;
-    }
+    const handleUpload = async () => {
+        if (!selectedImage) {
+            setError("Please select an image first.");
+            return;
+        }
 
-    const formData = new FormData();
-    formData.append("file", file);
+        setUploading(true);
+        try {
+            const imageUrlResponse: UploadResponse = await ImageUploadService.uploadImage(selectedImage);
+            setUploadResult(imageUrlResponse.fileName);  
+            setMerchandise((prev) => ({ ...prev, image: imageUrlResponse.fileName })); 
+            setSelectedImage(null);
+        } catch (error) {
+            setError("Failed to upload image. Please try again.");
+            console.error("Upload error:", error);
+        } finally {
+            setUploading(false);
+        }
+    };
 
-    try {
-      const response = await fetch("http://localhost:5236/api/uploadimage", {
-        method: "POST",
-        body: formData,
-      });
+    const handleAddNewMerchandise = async () => {
+        try {
+            console.log("Adding merchandise:", merchandise);
+            await axios.post('http://localhost:5236/api/TrumpMerchandise', merchandise);
+        } catch (error) {
+            console.error("Error adding merchandise:", error);
+        }
+    };
 
-      if (!response.ok) {
-        throw new Error("Failed to upload image.");
-      }
-
-      const data = await response.json();
-      setMessage(`Image uploaded successfully! File name: ${data.FileName}`);
-    } catch (error) {
-      console.error("Error uploading image:", error);
-      setMessage("Error uploading image.");
-    }
-  };
-
-  return (
-    <div>
-      <h2>Upload Image</h2>
-      <input type="file" onChange={handleFileChange} />
-      <button onClick={handleUpload}>Upload</button>
-      {message && <p>{message}</p>}
-      
-      {/* Display the uploaded image with fixed size */}
-      {file && (
+    return (
         <div>
-          <h3>Uploaded Image</h3>
-          <img 
-            src={URL.createObjectURL(file)} 
-            alt="Uploaded" 
-            className="w-32 h-32 object-cover"  
-          />
+            <h2>Upload Image</h2>
+            <input type="file" accept="image/*" onChange={handleImageChange} />
+            {selectedImage && <p>Selected file: {selectedImage.name}</p>}
+            <button onClick={handleUpload} disabled={uploading}>
+                {uploading ? "Uploading..." : "Upload"}
+            </button>
+            {uploadResult && <p>Upload successful: {uploadResult}</p>}
+            {error && <p style={{ color: "red" }}>{error}</p>}
+            <button onClick={handleAddNewMerchandise}>Add Merchandise</button>
         </div>
-      )}
-    </div>
-  );
+    );
 };
 
 export default ImageUpload;

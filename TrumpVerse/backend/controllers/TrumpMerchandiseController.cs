@@ -4,8 +4,8 @@ using TrumpVerse.Models;
 
 namespace TrumpVerse.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class TrumpMerchandiseController : ControllerBase
     {
         private readonly TrumpDbContext _context;
@@ -15,47 +15,63 @@ namespace TrumpVerse.Controllers
             _context = context;
         }
 
-        // GET: api/TrumpMerchandise
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<TrumpMerchandise>>> GetTrumpMerchandise()
+        public async Task<ActionResult<List<TrumpMerchandise>>> Get()
         {
-            return await _context.TrumpMerchandise.ToListAsync();
+            var merchList = await _context.TrumpMerchandise.ToListAsync();
+            return Ok(merchList);
         }
 
-        // POST: api/TrumpMerchandise
-        [HttpPost]
-        public async Task<ActionResult<TrumpMerchandise>> PostTrumpMerchandise([FromForm] TrumpMerchandise merch, IFormFile image)
+        [HttpGet("{id}")]
+        public async Task<ActionResult<TrumpMerchandise>> GetById(int id)
         {
-            var imagePath = Path.Combine("wwwroot/images/Merch", image.FileName);
-            using (var stream = new FileStream(imagePath, FileMode.Create))
+            var merch = await _context.TrumpMerchandise.FindAsync(id);
+            if (merch != null)
             {
-                await image.CopyToAsync(stream);
+                return Ok(merch);
             }
-            merch.Image = image.FileName;
+            return NotFound();
+        }
 
-            _context.TrumpMerchandise.Add(merch);
+        [HttpPost]
+        public async Task<ActionResult<TrumpMerchandise>> Post([FromBody] TrumpMerchandise newMerch)
+        {
+            if (newMerch == null || string.IsNullOrEmpty(newMerch.Name) || string.IsNullOrEmpty(newMerch.Description) || newMerch.Price <= 0)
+            {
+                return BadRequest("Invalid merchandise data.");
+            }
+
+            _context.TrumpMerchandise.Add(newMerch);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetTrumpMerchandise", new { id = merch.Id }, merch);
+            return CreatedAtAction(nameof(GetById), new { id = newMerch.Id }, newMerch);
         }
 
-        // DELETE: api/TrumpMerchandise/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteTrumpMerchandise(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var trumpMerchandise = await _context.TrumpMerchandise.FindAsync(id);
-            if (trumpMerchandise == null)
+            var merch = await _context.TrumpMerchandise.FindAsync(id);
+            if (merch == null)
             {
                 return NotFound();
             }
 
-            var imagePath = Path.Combine("wwwroot/images/Merch", trumpMerchandise.Image);
-            if (System.IO.File.Exists(imagePath))
+            _context.TrumpMerchandise.Remove(merch);
+            await _context.SaveChangesAsync();
+            return NoContent();
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(int id, [FromBody] TrumpMerchandise updatedMerch)
+        {
+            var merch = await _context.TrumpMerchandise.FindAsync(id);
+            if (merch == null)
             {
-                System.IO.File.Delete(imagePath);
+                return NotFound();
             }
 
-            _context.TrumpMerchandise.Remove(trumpMerchandise);
+            _context.Entry(merch).CurrentValues.SetValues(updatedMerch);
+            _context.Entry(merch).State = EntityState.Modified;
             await _context.SaveChangesAsync();
 
             return NoContent();

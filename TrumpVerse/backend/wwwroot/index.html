@@ -1,13 +1,244 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentation</title>
+    <meta name="description" content="TrumpMerches API Dokumentasjon for utviklere som ønsker tilgang til Trump-produkter via et RESTful API.">
+    <meta name="keywords" content="API, Trump Merchandise, Dokumentasjon, REST API">
+    <title>TrumpMerches API Dokumentasjon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #2d2a2a;
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        pre {
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            border: 1px solid #ccc;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 3px 6px;
+            border-radius: 3px;
+            font-size: 1em;
+            color: #d63384;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        .example {
+            background-color: #efefef;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .copy-button {
+            margin-left: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .copy-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
 
-    <h1>Documentation</h1>
-    
+    <header>
+        <h1>TrumpMerches API Dokumentasjon</h1>
+        <p>Velkommen til <strong>TrumpMerchandise API</strong>. Dette API-et gir tilgang til et utvalg av Trump-merchandise som T-skjorter, kopper, hatter og mer. Du kan hente informasjon om forskjellige produkter og filtrere etter type.</p>
+    </header>
+
+    <section>
+        <h2>Base URL</h2>
+        <p>Alle API-endepunktene kan nås på følgende base-URL:</p>
+        <pre><code>http://localhost:5236/api/TrumpMerchandise</code></pre>
+    </section>
+
+    <section>
+        <h2>Endepunkter</h2>
+
+        <h3>1. Hent alle produkter</h3>
+        <table>
+            <tr>
+                <th>URL</th>
+                <td>/</td>
+            </tr>
+            <tr>
+                <th>Metode</th>
+                <td>GET</td>
+            </tr>
+            <tr>
+                <th>Beskrivelse</th>
+                <td>Hent en liste over alle tilgjengelige Trump-merchandise.</td>
+            </tr>
+            <tr>
+                <th>Respons</th>
+                <td>
+                    <pre><code>{
+  "info": {
+    "count": 3
+  },
+  "results": [
+    {
+      "id": 1,
+      "name": "Trump T-shirt",
+      "type": "T-shirt",
+      "price": 25.99,
+      "image": "shirt.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Trump Mug",
+      "type": "Mug",
+      "price": 15.99,
+      "image": "mug.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Trump Hat",
+      "type": "Hat",
+      "price": 19.99,
+      "image": "hat.jpg"
+    }
+  ]
+}</code></pre>
+                </td>
+            </tr>
+        </table>
+
+        <h3>2. Hent spesifikt produkt etter ID</h3>
+        <table>
+            <tr>
+                <th>URL</th>
+                <td>/api/TrumpMerchandise/{id}</td>
+            </tr>
+            <tr>
+                <th>Metode</th>
+                <td>GET</td>
+            </tr>
+            <tr>
+                <th>Beskrivelse</th>
+                <td>Hent informasjon om et spesifikt produkt basert på produkt-ID.</td>
+            </tr>
+            <tr>
+                <th>Eksempel URL</th>
+                <td><code>http://localhost:5236/api/TrumpMerchandise/1</code></td>
+            </tr>
+            <tr>
+                <th>Respons</th>
+                <td>
+                    <pre><code>{
+  "id": 1,
+  "name": "Trump T-shirt",
+  "type": "T-shirt",
+  "price": 25.99,
+  "image": "shirt.jpg"
+}</code></pre>
+                </td>
+            </tr>
+        </table>
+
+        <h3>3. Hent produkter etter type</h3>
+        <table>
+            <tr>
+                <th>URL</th>
+                <td>/name/{name}</td>
+            </tr>
+            <tr>
+                <th>Metode</th>
+                <td>GET</td>
+            </tr>
+            <tr>
+                <th>Beskrivelse</th>
+                <td>Hent en liste over produkter som tilhører en spesifikk type (f.eks. "T-shirt", "Mug", etc.).</td>
+            </tr>
+            <tr>
+                <th>Eksempel URL</th>
+                <td><code>http://localhost:5236/api/TrumpMerchandise/name/T-shirt</code></td>
+            </tr>
+            <tr>
+                <th>Respons</th>
+                <td>
+                    <pre><code>{
+  "info": {
+    "count": 1
+  },
+  "results": [
+    {
+      "id": 1,
+      "name": "Trump T-shirt",
+      "description": "A bold T-shirt featuring the Trump logo.",
+      "price": 19.0,
+      "image": "trump_tshirt.png"
+    }
+  ]
+}</code></pre>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Feilmeldinger</h2>
+        <p><strong>404 - Ikke funnet:</strong> Hvis produktet eller typen du søker etter ikke finnes.</p>
+        <p><strong>400 - Dårlig forespørsel:</strong> Hvis forespørselen er feilformatert (f.eks. ugyldig produkt-ID).</p>
+    </section>
+
+    <section>
+        <h2>Eksempler</h2>
+
+        <h3>Hent alle produkter:</h3>
+        <div class="example">
+            <pre><code>curl -X GET http://localhost:5236/api/TrumpMerchandise</code></pre>
+        </div>
+
+        <h3>Hent produkt etter ID:</h3>
+        <div class="example">
+            <pre><code>curl -X GET http://localhost:5236/api/TrumpMerchandise/1</code></pre>
+        </div>
+
+        <h3>Hent produkter etter type:</h3>
+        <div class="example">
+            <pre><code>curl -X GET http://localhost:5236/api/TrumpMerchandise/name/T-shirt</code></pre>
+        </div>
+    </section>
+
+    <section>
+        <h2>Statuskoder</h2>
+        <p><strong>200 OK:</strong> Når forespørselen er vellykket.</p>
+        <p><strong>404 Not Found:</strong> Når forespurte data ikke finnes.</p>
+        <p><strong>400 Bad Request:</strong> Når forespørselen er feil.</p>
+    </section>
+
 </body>
 </html>

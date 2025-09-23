@@ -1,59 +1,75 @@
-import React, { useContext, useEffect } from 'react';
-import { MerchContext, MerchItem } from '../context/MerchContext';
+import React, { useState } from 'react';
+import { useMerchContext } from '../context/MerchContext';
 import ImageCard from '../components/ImageCard';
-import ImageUpload from '../components/ImageUpload';
+import EditMerchModal from '../components/EditMerch';
+import { TrumpMerchandise } from '../interfaces/TrumpMerch';
 
 const Merch: React.FC = () => {
-  const context = useContext(MerchContext);
+  const { merch, error, updateMerch } = useMerchContext();
+  const [editingItem, setEditingItem] = useState<TrumpMerchandise | null>(null);
+  const [searchQuery, setSearchQuery] = useState<string>(''); 
 
-  if (!context) {
-    throw new Error('Merch must be used within a MerchProvider');
-  }
+  
+  const filteredMerch = merch.filter((item) =>
+    item.name.toLowerCase().includes(searchQuery.toLowerCase()) 
+  );
 
-  const { merch, setMerch, error, setError, deleteMerch } = context;
+  const handleEdit = (item: TrumpMerchandise) => {
+    setEditingItem(item);
+  };
 
-  useEffect(() => {
-    const fetchMerch = async () => {
-      try {
-        const response = await fetch('http://localhost:5236/api/TrumpMerchandise');
-        if (!response.ok) throw new Error('Failed to fetch merchandise');
-        
-        const merchData = await response.json();
-        
-        if (Array.isArray(merchData)) {
-          setMerch(merchData);
-        } else {
-          throw new Error('Received invalid data format');
-        }
-      } catch (err) {
-        setError('Failed to fetch merchandise');
-        console.error('Error fetching merchandise:', err);
-      }
-    };
-
-    fetchMerch();
-  }, [setMerch, setError]);
+  const handleSave = async (updatedItem: TrumpMerchandise, imageFile: File | null) => {
+    try {
+      await updateMerch(updatedItem.id!, updatedItem, imageFile); 
+      setEditingItem(null); 
+    } catch (error) {
+      console.error('Error updating merchandise:', error);
+    }
+  };
 
   return (
-    <div className="p-8 bg-white shadow-md rounded-lg max-w-4xl mx-auto">
-      <h2 className="text-3xl font-bold mb-6 text-center">Our Merchandise</h2>
-      {error && <p className="text-red-500 text-center mb-4">{error}</p>}
-      {merch.length === 0 ? (
-        <p className="text-center text-lg text-gray-600">No merchandise available.</p>
+    <div className="bg-red-600 min-h-screen flex flex-col items-center justify-center p-6">
+      <h2 className="text-4xl font-extrabold text-white mb-6 text-center">
+        Our Merchandise
+      </h2>
+      
+      <input
+        type="text"
+        placeholder="Search for merch"
+        value={searchQuery}
+        onChange={(e) => setSearchQuery(e.target.value)}
+        className="mb-6 p-3 w-full max-w-md border-2 border-white rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
+      />
+      
+      {error && <p className="text-yellow-300 text-center mb-6 text-xl">{error}</p>}
+      
+      {filteredMerch.length === 0 ? (
+        <p className="text-center text-lg text-white">No merchandise available.</p>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {merch.map((item: MerchItem) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          {filteredMerch.map((item: TrumpMerchandise) => (
             <ImageCard
               key={item.id}
-              imageUrl={`http://localhost:5236/images/Merch/${item.image}`}
+              id={item.id?.toString()} 
+              imageUrl={`http://localhost:5236/images/${item.image}`}
               title={item.name}
               description={item.description}
               price={item.price}
+              onEdit={() => handleEdit(item)}
             />
           ))}
         </div>
       )}
-      <ImageUpload />
+      
+      {editingItem && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+          <EditMerchModal
+            item={editingItem}
+            onSave={handleSave}
+            onClose={() => setEditingItem(null)}
+          />
+        </div>
+      )}
     </div>
   );
 };

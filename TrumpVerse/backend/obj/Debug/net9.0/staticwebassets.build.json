@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lpjEylT2DE8hkuOYe9ywKm7EEhSAE10449Rgx8CtTDM=",
+  "Hash": "qGRriYs+0TnwIVxdUf8HbtC9GDiiLCsNLCmTToIp/bs=",
   "Source": "backend",
   "BasePath": "_content/backend",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\obj\\Debug\\net9.0\\compressed\\0yulyb0yu6-sq9gepu66l.gz",
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\obj\\Debug\\net9.0\\compressed\\0yulyb0yu6-4u97gl9ptz.gz",
       "SourceId": "backend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/backend",
-      "RelativePath": "index#[.{fingerprint=sq9gepu66l}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=4u97gl9ptz}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,19 +31,250 @@
       "RelatedAsset": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "j821vtaoxr",
-      "Integrity": "bYtWHF73uhvjL0+CU9CPIKVIISoclWbvogogkw//xjs=",
+      "Fingerprint": "rqtwqpmhi3",
+      "Integrity": "baPYYRvdeZm75cC3gDoP3tXLxXSKcDDNCOBdiNrJvI0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_book.png",
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\462560602_1314908849860726_5611536537170590765_n.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
       "BasePath": "_content/backend",
-      "RelativePath": "images/Merch/trump_book#[.{fingerprint}]?.png",
+      "RelativePath": "images/462560602_1314908849860726_5611536537170590765_n#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ja99xt3vk3",
+      "Integrity": "S9xPNcFz+nI2qjiTvPWHKBcHiDjmSuk7Jufo1mxJBm8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\462560602_1314908849860726_5611536537170590765_n.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\bil.png",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "images/bil#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vgttubjye0",
+      "Integrity": "kSsEHh6L3Ne/6M/x4EYq3Tn+RbUFBfL0lFic2jflCEo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bil.png"
+    },
+    {
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Christ_the_Redeemer_Statue_PNG_Clip_Art-2770.png",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "images/Christ_the_Redeemer_Statue_PNG_Clip_Art-2770#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b4a4d03hxl",
+      "Integrity": "xVa796TjoTfKyvmpOvGljYiIYo71SLbO6opICkBwFPs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Christ_the_Redeemer_Statue_PNG_Clip_Art-2770.png"
+    },
+    {
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Frozen img.webp",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "images/Frozen img#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1i230qw25r",
+      "Integrity": "aVdmiQS78ksucOlkGLyM1Po88L5hp6UHFB5a9D/u0KE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Frozen img.webp"
+    },
+    {
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\hund.png",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "images/hund#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ogcqmvqt0t",
+      "Integrity": "aKzWpUJzDm7fY4cyYQBHWC6VstcH8kCyHHMQrpx+Za4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hund.png"
+    },
+    {
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\IMG_9509.JPG",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "images/IMG_9509#[.{fingerprint}]?.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h6coxnffk",
+      "Integrity": "M+hBKJ71aSrOM4SPjqno6H14R0KrHNke/54JfPjgbFQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\IMG_9509.JPG"
+    },
+    {
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Katrine.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "images/Katrine#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xaapzv4vm7",
+      "Integrity": "lyB7NfOyaw/mKdepYu9I4eSm9vqwDkvJYU8AOakvdGY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Katrine.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\kiwihug-P_GeWr5wNQc-unsplash.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "images/kiwihug-P_GeWr5wNQc-unsplash#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i5nkc1oss0",
+      "Integrity": "yp0+KvmewIGRAIA7/c+bBNGV2meuRozGgMMm8PHI5Ws=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\kiwihug-P_GeWr5wNQc-unsplash.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\mario.png",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "images/mario#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "inyvxvwy8p",
+      "Integrity": "Lt4QgwJKWsQz9Kbf6pp05HzdDdiACjxQvyXFdKjYNYE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\mario.png"
+    },
+    {
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trumpppp.png",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "images/Merch/trumpppp#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ekeaqazjmw",
+      "Integrity": "wuWvzuyUzfKMg0jdLW3QjC4rkAlrliQkHsaMc6b2Gmk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Merch\\trumpppp.png"
+    },
+    {
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\prfilbilde_sara.jpeg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "images/prfilbilde_sara#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lzdmv59s0g",
+      "Integrity": "r8zpAn71oZ6Sh8Q9yKV8FjmTF1fgSX2tjIBRaspWsS4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\prfilbilde_sara.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_book.png",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "images/trump_book#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -56,15 +287,15 @@
       "Integrity": "9GAmUm+bxWfH6JSGmVeX0bfqjlD3NiZP5hFBpCnpemI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Merch\\trump_book.png"
+      "OriginalItemSpec": "wwwroot\\images\\trump_book.png"
     },
     {
-      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_flag.png",
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_flag.png",
       "SourceId": "backend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
       "BasePath": "_content/backend",
-      "RelativePath": "images/Merch/trump_flag#[.{fingerprint}]?.png",
+      "RelativePath": "images/trump_flag#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -77,15 +308,15 @@
       "Integrity": "MGSQQCLhbDU5gOMDuuUibGfMY7VoHqon1Zx1Ptdeq7s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Merch\\trump_flag.png"
+      "OriginalItemSpec": "wwwroot\\images\\trump_flag.png"
     },
     {
-      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_hat.png",
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_hat.png",
       "SourceId": "backend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
       "BasePath": "_content/backend",
-      "RelativePath": "images/Merch/trump_hat#[.{fingerprint}]?.png",
+      "RelativePath": "images/trump_hat#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -98,15 +329,15 @@
       "Integrity": "DbPh/iD8uo+3B2aYRqXJrjes/w9G8Jsw22p1vXJ6GKo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Merch\\trump_hat.png"
+      "OriginalItemSpec": "wwwroot\\images\\trump_hat.png"
     },
     {
-      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_hoodie.png",
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_hoodie.png",
       "SourceId": "backend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
       "BasePath": "_content/backend",
-      "RelativePath": "images/Merch/trump_hoodie#[.{fingerprint}]?.png",
+      "RelativePath": "images/trump_hoodie#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -115,19 +346,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "11akh4ydo3",
-      "Integrity": "O+/VXTZvPz/vJv8rzUdJd6XZcm4hcVwnYzS5K7kkFBA=",
+      "Fingerprint": "i5ak1wggpy",
+      "Integrity": "mm7djAhjH76zQevLL5pVOIH3/P3+UWJQveSScEZ79K8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Merch\\trump_hoodie.png"
+      "OriginalItemSpec": "wwwroot\\images\\trump_hoodie.png"
     },
     {
-      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_keychain.png",
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_keychain.png",
       "SourceId": "backend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
       "BasePath": "_content/backend",
-      "RelativePath": "images/Merch/trump_keychain#[.{fingerprint}]?.png",
+      "RelativePath": "images/trump_keychain#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -140,15 +371,15 @@
       "Integrity": "Y/gECRkXFdmraTtsXBIPYwFn3n7wW1vLyP+yagxlOOo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Merch\\trump_keychain.png"
+      "OriginalItemSpec": "wwwroot\\images\\trump_keychain.png"
     },
     {
-      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_mug.png",
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_mug.png",
       "SourceId": "backend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
       "BasePath": "_content/backend",
-      "RelativePath": "images/Merch/trump_mug#[.{fingerprint}]?.png",
+      "RelativePath": "images/trump_mug#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -157,19 +388,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "tppzyndnnm",
-      "Integrity": "8RqA/cRlmwVV19stk1c/sPJUbGgdabFSqgoqZ4epqPI=",
+      "Fingerprint": "izyomw52sf",
+      "Integrity": "Hu25GfpzWQlQJMKBXarFejgSvXAjEq+Ht5dx40JU7hg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Merch\\trump_mug.png"
+      "OriginalItemSpec": "wwwroot\\images\\trump_mug.png"
     },
     {
-      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_phone_case.png",
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_phone_case.png",
       "SourceId": "backend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
       "BasePath": "_content/backend",
-      "RelativePath": "images/Merch/trump_phone_case#[.{fingerprint}]?.png",
+      "RelativePath": "images/trump_phone_case#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -182,15 +413,15 @@
       "Integrity": "PVfJC/lS9x2JYeXG1yZCGlCdroLesCOYyDXy2dK4TJE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Merch\\trump_phone_case.png"
+      "OriginalItemSpec": "wwwroot\\images\\trump_phone_case.png"
     },
     {
-      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_tshirt.png",
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_tshirt.png",
       "SourceId": "backend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
       "BasePath": "_content/backend",
-      "RelativePath": "images/Merch/trump_tshirt#[.{fingerprint}]?.png",
+      "RelativePath": "images/trump_tshirt#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -199,11 +430,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fq94xtwwng",
-      "Integrity": "R18mYHw/lWQIywW6FwCDGUsUy1xvIYP4nLWQ+y7334E=",
+      "Fingerprint": "ca2fc2x1kq",
+      "Integrity": "rCKx3tQvSkfVldXSbH5uPXDyMtoIbshqS0v6OXOQgTw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Merch\\trump_tshirt.png"
+      "OriginalItemSpec": "wwwroot\\images\\trump_tshirt.png"
+    },
+    {
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump.png",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "images/trump#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p11zsqoq3u",
+      "Integrity": "88utorF2os/uDXZvIdfZRTHUayqiVo1VLjlITsr11rY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\trump.png"
+    },
+    {
+      "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trumpppp.png",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "images/trumpppp#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ekeaqazjmw",
+      "Integrity": "wuWvzuyUzfKMg0jdLW3QjC4rkAlrliQkHsaMc6b2Gmk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\trumpppp.png"
     },
     {
       "Identity": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\index.html",
@@ -220,8 +493,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "sq9gepu66l",
-      "Integrity": "rDgg2jlTfem/VGoqeGF8gYmYzHPWVgjVtkyLXscB+A4=",
+      "Fingerprint": "4u97gl9ptz",
+      "Integrity": "dH4ckJPwFrTjmHFa+CutW8Tt3wTOGC6yYZWIw4kNV9A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -229,8 +502,910 @@
   ],
   "Endpoints": [
     {
-      "Route": "images/Merch/trump_book.cw06pjn4n0.png",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_book.png",
+      "Route": "images/462560602_1314908849860726_5611536537170590765_n.ja99xt3vk3.jpg",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\462560602_1314908849860726_5611536537170590765_n.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "216886"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S9xPNcFz+nI2qjiTvPWHKBcHiDjmSuk7Jufo1mxJBm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:07:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ja99xt3vk3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/462560602_1314908849860726_5611536537170590765_n.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S9xPNcFz+nI2qjiTvPWHKBcHiDjmSuk7Jufo1mxJBm8="
+        }
+      ]
+    },
+    {
+      "Route": "images/462560602_1314908849860726_5611536537170590765_n.jpg",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\462560602_1314908849860726_5611536537170590765_n.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "216886"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S9xPNcFz+nI2qjiTvPWHKBcHiDjmSuk7Jufo1mxJBm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:07:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S9xPNcFz+nI2qjiTvPWHKBcHiDjmSuk7Jufo1mxJBm8="
+        }
+      ]
+    },
+    {
+      "Route": "images/bil.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\bil.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "472140"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kSsEHh6L3Ne/6M/x4EYq3Tn+RbUFBfL0lFic2jflCEo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 10:04:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kSsEHh6L3Ne/6M/x4EYq3Tn+RbUFBfL0lFic2jflCEo="
+        }
+      ]
+    },
+    {
+      "Route": "images/bil.vgttubjye0.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\bil.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "472140"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kSsEHh6L3Ne/6M/x4EYq3Tn+RbUFBfL0lFic2jflCEo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 10:04:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vgttubjye0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/bil.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kSsEHh6L3Ne/6M/x4EYq3Tn+RbUFBfL0lFic2jflCEo="
+        }
+      ]
+    },
+    {
+      "Route": "images/Christ_the_Redeemer_Statue_PNG_Clip_Art-2770.b4a4d03hxl.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Christ_the_Redeemer_Statue_PNG_Clip_Art-2770.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1683374"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xVa796TjoTfKyvmpOvGljYiIYo71SLbO6opICkBwFPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 17:59:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b4a4d03hxl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Christ_the_Redeemer_Statue_PNG_Clip_Art-2770.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xVa796TjoTfKyvmpOvGljYiIYo71SLbO6opICkBwFPs="
+        }
+      ]
+    },
+    {
+      "Route": "images/Christ_the_Redeemer_Statue_PNG_Clip_Art-2770.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Christ_the_Redeemer_Statue_PNG_Clip_Art-2770.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1683374"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xVa796TjoTfKyvmpOvGljYiIYo71SLbO6opICkBwFPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 17:59:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xVa796TjoTfKyvmpOvGljYiIYo71SLbO6opICkBwFPs="
+        }
+      ]
+    },
+    {
+      "Route": "images/Frozen img.1i230qw25r.webp",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Frozen img.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aVdmiQS78ksucOlkGLyM1Po88L5hp6UHFB5a9D/u0KE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 17:08:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1i230qw25r"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Frozen img.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aVdmiQS78ksucOlkGLyM1Po88L5hp6UHFB5a9D/u0KE="
+        }
+      ]
+    },
+    {
+      "Route": "images/Frozen img.webp",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Frozen img.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aVdmiQS78ksucOlkGLyM1Po88L5hp6UHFB5a9D/u0KE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 17:08:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aVdmiQS78ksucOlkGLyM1Po88L5hp6UHFB5a9D/u0KE="
+        }
+      ]
+    },
+    {
+      "Route": "images/hund.ogcqmvqt0t.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\hund.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "626646"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aKzWpUJzDm7fY4cyYQBHWC6VstcH8kCyHHMQrpx+Za4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:04:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ogcqmvqt0t"
+        },
+        {
+          "Name": "label",
+          "Value": "images/hund.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aKzWpUJzDm7fY4cyYQBHWC6VstcH8kCyHHMQrpx+Za4="
+        }
+      ]
+    },
+    {
+      "Route": "images/hund.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\hund.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "626646"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aKzWpUJzDm7fY4cyYQBHWC6VstcH8kCyHHMQrpx+Za4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:04:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aKzWpUJzDm7fY4cyYQBHWC6VstcH8kCyHHMQrpx+Za4="
+        }
+      ]
+    },
+    {
+      "Route": "images/IMG_9509.9h6coxnffk.JPG",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\IMG_9509.JPG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3048483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M+hBKJ71aSrOM4SPjqno6H14R0KrHNke/54JfPjgbFQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:11:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h6coxnffk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/IMG_9509.JPG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M+hBKJ71aSrOM4SPjqno6H14R0KrHNke/54JfPjgbFQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/IMG_9509.JPG",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\IMG_9509.JPG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3048483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M+hBKJ71aSrOM4SPjqno6H14R0KrHNke/54JfPjgbFQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:11:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M+hBKJ71aSrOM4SPjqno6H14R0KrHNke/54JfPjgbFQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/Katrine.jpg",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Katrine.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lyB7NfOyaw/mKdepYu9I4eSm9vqwDkvJYU8AOakvdGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 12:15:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lyB7NfOyaw/mKdepYu9I4eSm9vqwDkvJYU8AOakvdGY="
+        }
+      ]
+    },
+    {
+      "Route": "images/Katrine.xaapzv4vm7.jpg",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Katrine.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lyB7NfOyaw/mKdepYu9I4eSm9vqwDkvJYU8AOakvdGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 12:15:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xaapzv4vm7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Katrine.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lyB7NfOyaw/mKdepYu9I4eSm9vqwDkvJYU8AOakvdGY="
+        }
+      ]
+    },
+    {
+      "Route": "images/kiwihug-P_GeWr5wNQc-unsplash.i5nkc1oss0.jpg",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\kiwihug-P_GeWr5wNQc-unsplash.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "635735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yp0+KvmewIGRAIA7/c+bBNGV2meuRozGgMMm8PHI5Ws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 16:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i5nkc1oss0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/kiwihug-P_GeWr5wNQc-unsplash.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yp0+KvmewIGRAIA7/c+bBNGV2meuRozGgMMm8PHI5Ws="
+        }
+      ]
+    },
+    {
+      "Route": "images/kiwihug-P_GeWr5wNQc-unsplash.jpg",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\kiwihug-P_GeWr5wNQc-unsplash.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "635735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yp0+KvmewIGRAIA7/c+bBNGV2meuRozGgMMm8PHI5Ws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 16:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yp0+KvmewIGRAIA7/c+bBNGV2meuRozGgMMm8PHI5Ws="
+        }
+      ]
+    },
+    {
+      "Route": "images/mario.inyvxvwy8p.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\mario.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "513590"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lt4QgwJKWsQz9Kbf6pp05HzdDdiACjxQvyXFdKjYNYE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 10:21:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "inyvxvwy8p"
+        },
+        {
+          "Name": "label",
+          "Value": "images/mario.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lt4QgwJKWsQz9Kbf6pp05HzdDdiACjxQvyXFdKjYNYE="
+        }
+      ]
+    },
+    {
+      "Route": "images/mario.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\mario.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "513590"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lt4QgwJKWsQz9Kbf6pp05HzdDdiACjxQvyXFdKjYNYE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 10:21:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lt4QgwJKWsQz9Kbf6pp05HzdDdiACjxQvyXFdKjYNYE="
+        }
+      ]
+    },
+    {
+      "Route": "images/Merch/trumpppp.ekeaqazjmw.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trumpppp.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118285"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wuWvzuyUzfKMg0jdLW3QjC4rkAlrliQkHsaMc6b2Gmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 17:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ekeaqazjmw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Merch/trumpppp.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wuWvzuyUzfKMg0jdLW3QjC4rkAlrliQkHsaMc6b2Gmk="
+        }
+      ]
+    },
+    {
+      "Route": "images/Merch/trumpppp.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trumpppp.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118285"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wuWvzuyUzfKMg0jdLW3QjC4rkAlrliQkHsaMc6b2Gmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 17:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wuWvzuyUzfKMg0jdLW3QjC4rkAlrliQkHsaMc6b2Gmk="
+        }
+      ]
+    },
+    {
+      "Route": "images/prfilbilde_sara.jpeg",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\prfilbilde_sara.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "467257"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r8zpAn71oZ6Sh8Q9yKV8FjmTF1fgSX2tjIBRaspWsS4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 09:58:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r8zpAn71oZ6Sh8Q9yKV8FjmTF1fgSX2tjIBRaspWsS4="
+        }
+      ]
+    },
+    {
+      "Route": "images/prfilbilde_sara.lzdmv59s0g.jpeg",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\prfilbilde_sara.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "467257"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r8zpAn71oZ6Sh8Q9yKV8FjmTF1fgSX2tjIBRaspWsS4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 09:58:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lzdmv59s0g"
+        },
+        {
+          "Name": "label",
+          "Value": "images/prfilbilde_sara.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r8zpAn71oZ6Sh8Q9yKV8FjmTF1fgSX2tjIBRaspWsS4="
+        }
+      ]
+    },
+    {
+      "Route": "images/trump_book.cw06pjn4n0.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_book.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -265,7 +1440,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/Merch/trump_book.png"
+          "Value": "images/trump_book.png"
         },
         {
           "Name": "integrity",
@@ -274,8 +1449,8 @@
       ]
     },
     {
-      "Route": "images/Merch/trump_book.png",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_book.png",
+      "Route": "images/trump_book.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_book.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -311,8 +1486,8 @@
       ]
     },
     {
-      "Route": "images/Merch/trump_flag.8ac0ixz6b5.png",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_flag.png",
+      "Route": "images/trump_flag.8ac0ixz6b5.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_flag.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -347,7 +1522,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/Merch/trump_flag.png"
+          "Value": "images/trump_flag.png"
         },
         {
           "Name": "integrity",
@@ -356,8 +1531,8 @@
       ]
     },
     {
-      "Route": "images/Merch/trump_flag.png",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_flag.png",
+      "Route": "images/trump_flag.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_flag.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -393,8 +1568,8 @@
       ]
     },
     {
-      "Route": "images/Merch/trump_hat.jge7ktu08q.png",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_hat.png",
+      "Route": "images/trump_hat.jge7ktu08q.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_hat.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -429,7 +1604,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/Merch/trump_hat.png"
+          "Value": "images/trump_hat.png"
         },
         {
           "Name": "integrity",
@@ -438,8 +1613,8 @@
       ]
     },
     {
-      "Route": "images/Merch/trump_hat.png",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_hat.png",
+      "Route": "images/trump_hat.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_hat.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -475,8 +1650,8 @@
       ]
     },
     {
-      "Route": "images/Merch/trump_hoodie.11akh4ydo3.png",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_hoodie.png",
+      "Route": "images/trump_hoodie.i5ak1wggpy.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_hoodie.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -485,7 +1660,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "149575"
+          "Value": "7871"
         },
         {
           "Name": "Content-Type",
@@ -493,11 +1668,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"O+/VXTZvPz/vJv8rzUdJd6XZcm4hcVwnYzS5K7kkFBA=\""
+          "Value": "\"mm7djAhjH76zQevLL5pVOIH3/P3+UWJQveSScEZ79K8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 29 Nov 2024 15:51:26 GMT"
+          "Value": "Fri, 06 Dec 2024 09:48:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -507,21 +1682,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "11akh4ydo3"
+          "Value": "i5ak1wggpy"
         },
         {
           "Name": "label",
-          "Value": "images/Merch/trump_hoodie.png"
+          "Value": "images/trump_hoodie.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-O+/VXTZvPz/vJv8rzUdJd6XZcm4hcVwnYzS5K7kkFBA="
+          "Value": "sha256-mm7djAhjH76zQevLL5pVOIH3/P3+UWJQveSScEZ79K8="
         }
       ]
     },
     {
-      "Route": "images/Merch/trump_hoodie.png",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_hoodie.png",
+      "Route": "images/trump_hoodie.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_hoodie.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -530,7 +1705,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "149575"
+          "Value": "7871"
         },
         {
           "Name": "Content-Type",
@@ -538,11 +1713,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"O+/VXTZvPz/vJv8rzUdJd6XZcm4hcVwnYzS5K7kkFBA=\""
+          "Value": "\"mm7djAhjH76zQevLL5pVOIH3/P3+UWJQveSScEZ79K8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 29 Nov 2024 15:51:26 GMT"
+          "Value": "Fri, 06 Dec 2024 09:48:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -552,13 +1727,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-O+/VXTZvPz/vJv8rzUdJd6XZcm4hcVwnYzS5K7kkFBA="
+          "Value": "sha256-mm7djAhjH76zQevLL5pVOIH3/P3+UWJQveSScEZ79K8="
         }
       ]
     },
     {
-      "Route": "images/Merch/trump_keychain.9l2mpyxbrq.png",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_keychain.png",
+      "Route": "images/trump_keychain.9l2mpyxbrq.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_keychain.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -593,7 +1768,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/Merch/trump_keychain.png"
+          "Value": "images/trump_keychain.png"
         },
         {
           "Name": "integrity",
@@ -602,8 +1777,8 @@
       ]
     },
     {
-      "Route": "images/Merch/trump_keychain.png",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_keychain.png",
+      "Route": "images/trump_keychain.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_keychain.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -639,8 +1814,8 @@
       ]
     },
     {
-      "Route": "images/Merch/trump_mug.png",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_mug.png",
+      "Route": "images/trump_mug.izyomw52sf.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_mug.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -649,7 +1824,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27122"
+          "Value": "33557"
         },
         {
           "Name": "Content-Type",
@@ -657,48 +1832,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8RqA/cRlmwVV19stk1c/sPJUbGgdabFSqgoqZ4epqPI=\""
+          "Value": "\"Hu25GfpzWQlQJMKBXarFejgSvXAjEq+Ht5dx40JU7hg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 29 Nov 2024 15:48:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8RqA/cRlmwVV19stk1c/sPJUbGgdabFSqgoqZ4epqPI="
-        }
-      ]
-    },
-    {
-      "Route": "images/Merch/trump_mug.tppzyndnnm.png",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_mug.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "27122"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8RqA/cRlmwVV19stk1c/sPJUbGgdabFSqgoqZ4epqPI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 29 Nov 2024 15:48:06 GMT"
+          "Value": "Mon, 09 Dec 2024 07:19:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -708,21 +1846,58 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tppzyndnnm"
+          "Value": "izyomw52sf"
         },
         {
           "Name": "label",
-          "Value": "images/Merch/trump_mug.png"
+          "Value": "images/trump_mug.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8RqA/cRlmwVV19stk1c/sPJUbGgdabFSqgoqZ4epqPI="
+          "Value": "sha256-Hu25GfpzWQlQJMKBXarFejgSvXAjEq+Ht5dx40JU7hg="
         }
       ]
     },
     {
-      "Route": "images/Merch/trump_phone_case.7rnqyzuk7s.png",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_phone_case.png",
+      "Route": "images/trump_mug.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_mug.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33557"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hu25GfpzWQlQJMKBXarFejgSvXAjEq+Ht5dx40JU7hg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 07:19:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hu25GfpzWQlQJMKBXarFejgSvXAjEq+Ht5dx40JU7hg="
+        }
+      ]
+    },
+    {
+      "Route": "images/trump_phone_case.7rnqyzuk7s.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_phone_case.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -757,7 +1932,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/Merch/trump_phone_case.png"
+          "Value": "images/trump_phone_case.png"
         },
         {
           "Name": "integrity",
@@ -766,8 +1941,8 @@
       ]
     },
     {
-      "Route": "images/Merch/trump_phone_case.png",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_phone_case.png",
+      "Route": "images/trump_phone_case.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_phone_case.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -803,8 +1978,8 @@
       ]
     },
     {
-      "Route": "images/Merch/trump_tshirt.fq94xtwwng.png",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_tshirt.png",
+      "Route": "images/trump_tshirt.ca2fc2x1kq.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_tshirt.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -813,7 +1988,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37540"
+          "Value": "378931"
         },
         {
           "Name": "Content-Type",
@@ -821,11 +1996,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"R18mYHw/lWQIywW6FwCDGUsUy1xvIYP4nLWQ+y7334E=\""
+          "Value": "\"rCKx3tQvSkfVldXSbH5uPXDyMtoIbshqS0v6OXOQgTw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 29 Nov 2024 15:45:45 GMT"
+          "Value": "Mon, 09 Dec 2024 07:20:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -835,21 +2010,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fq94xtwwng"
+          "Value": "ca2fc2x1kq"
         },
         {
           "Name": "label",
-          "Value": "images/Merch/trump_tshirt.png"
+          "Value": "images/trump_tshirt.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-R18mYHw/lWQIywW6FwCDGUsUy1xvIYP4nLWQ+y7334E="
+          "Value": "sha256-rCKx3tQvSkfVldXSbH5uPXDyMtoIbshqS0v6OXOQgTw="
         }
       ]
     },
     {
-      "Route": "images/Merch/trump_tshirt.png",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trump_tshirt.png",
+      "Route": "images/trump_tshirt.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_tshirt.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -858,7 +2033,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37540"
+          "Value": "378931"
         },
         {
           "Name": "Content-Type",
@@ -866,11 +2041,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"R18mYHw/lWQIywW6FwCDGUsUy1xvIYP4nLWQ+y7334E=\""
+          "Value": "\"rCKx3tQvSkfVldXSbH5uPXDyMtoIbshqS0v6OXOQgTw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 29 Nov 2024 15:45:45 GMT"
+          "Value": "Mon, 09 Dec 2024 07:20:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -880,18 +2055,182 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-R18mYHw/lWQIywW6FwCDGUsUy1xvIYP4nLWQ+y7334E="
+          "Value": "sha256-rCKx3tQvSkfVldXSbH5uPXDyMtoIbshqS0v6OXOQgTw="
         }
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\obj\\Debug\\net9.0\\compressed\\0yulyb0yu6-sq9gepu66l.gz",
+      "Route": "images/trump.p11zsqoq3u.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"88utorF2os/uDXZvIdfZRTHUayqiVo1VLjlITsr11rY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 17:02:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p11zsqoq3u"
+        },
+        {
+          "Name": "label",
+          "Value": "images/trump.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-88utorF2os/uDXZvIdfZRTHUayqiVo1VLjlITsr11rY="
+        }
+      ]
+    },
+    {
+      "Route": "images/trump.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"88utorF2os/uDXZvIdfZRTHUayqiVo1VLjlITsr11rY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 17:02:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-88utorF2os/uDXZvIdfZRTHUayqiVo1VLjlITsr11rY="
+        }
+      ]
+    },
+    {
+      "Route": "images/trumpppp.ekeaqazjmw.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trumpppp.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118285"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wuWvzuyUzfKMg0jdLW3QjC4rkAlrliQkHsaMc6b2Gmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 10:18:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ekeaqazjmw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/trumpppp.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wuWvzuyUzfKMg0jdLW3QjC4rkAlrliQkHsaMc6b2Gmk="
+        }
+      ]
+    },
+    {
+      "Route": "images/trumpppp.png",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trumpppp.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118285"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wuWvzuyUzfKMg0jdLW3QjC4rkAlrliQkHsaMc6b2Gmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 10:18:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wuWvzuyUzfKMg0jdLW3QjC4rkAlrliQkHsaMc6b2Gmk="
+        }
+      ]
+    },
+    {
+      "Route": "index.4u97gl9ptz.html",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\obj\\Debug\\net9.0\\compressed\\0yulyb0yu6-4u97gl9ptz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005347593583"
+          "Quality": "0.000709723208"
         }
       ],
       "ResponseHeaders": [
@@ -901,19 +2240,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "186"
+          "Value": "1408"
         },
         {
           "Name": "ETag",
-          "Value": "\"bYtWHF73uhvjL0+CU9CPIKVIISoclWbvogogkw//xjs=\""
+          "Value": "\"baPYYRvdeZm75cC3gDoP3tXLxXSKcDDNCOBdiNrJvI0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 10:05:49 GMT"
+          "Value": "Thu, 12 Dec 2024 09:37:40 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -929,18 +2268,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"rDgg2jlTfem/VGoqeGF8gYmYzHPWVgjVtkyLXscB+A4=\""
+          "Value": "W/\"dH4ckJPwFrTjmHFa+CutW8Tt3wTOGC6yYZWIw4kNV9A=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "4u97gl9ptz"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-rDgg2jlTfem/VGoqeGF8gYmYzHPWVgjVtkyLXscB+A4="
+          "Value": "sha256-dH4ckJPwFrTjmHFa+CutW8Tt3wTOGC6yYZWIw4kNV9A="
         }
       ]
     },
     {
-      "Route": "index.html",
+      "Route": "index.4u97gl9ptz.html",
       "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -950,7 +2297,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "250"
+          "Value": "4938"
         },
         {
           "Name": "Content-Type",
@@ -958,121 +2305,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rDgg2jlTfem/VGoqeGF8gYmYzHPWVgjVtkyLXscB+A4=\""
+          "Value": "\"dH4ckJPwFrTjmHFa+CutW8Tt3wTOGC6yYZWIw4kNV9A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 10:05:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-rDgg2jlTfem/VGoqeGF8gYmYzHPWVgjVtkyLXscB+A4="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\obj\\Debug\\net9.0\\compressed\\0yulyb0yu6-sq9gepu66l.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "186"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bYtWHF73uhvjL0+CU9CPIKVIISoclWbvogogkw//xjs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 10:05:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-bYtWHF73uhvjL0+CU9CPIKVIISoclWbvogogkw//xjs="
-        }
-      ]
-    },
-    {
-      "Route": "index.sq9gepu66l.html",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\obj\\Debug\\net9.0\\compressed\\0yulyb0yu6-sq9gepu66l.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.005347593583"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "186"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bYtWHF73uhvjL0+CU9CPIKVIISoclWbvogogkw//xjs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 10:05:49 GMT"
+          "Value": "Thu, 12 Dec 2024 09:37:40 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"rDgg2jlTfem/VGoqeGF8gYmYzHPWVgjVtkyLXscB+A4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sq9gepu66l"
+          "Value": "4u97gl9ptz"
         },
         {
           "Name": "label",
@@ -1080,13 +2327,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rDgg2jlTfem/VGoqeGF8gYmYzHPWVgjVtkyLXscB+A4="
+          "Value": "sha256-dH4ckJPwFrTjmHFa+CutW8Tt3wTOGC6yYZWIw4kNV9A="
         }
       ]
     },
     {
-      "Route": "index.sq9gepu66l.html",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\index.html",
+      "Route": "index.4u97gl9ptz.html.gz",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\obj\\Debug\\net9.0\\compressed\\0yulyb0yu6-4u97gl9ptz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1095,7 +2342,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "250"
+          "Value": "1408"
         },
         {
           "Name": "Content-Type",
@@ -1103,56 +2350,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rDgg2jlTfem/VGoqeGF8gYmYzHPWVgjVtkyLXscB+A4=\""
+          "Value": "\"baPYYRvdeZm75cC3gDoP3tXLxXSKcDDNCOBdiNrJvI0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 10:05:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "sq9gepu66l"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rDgg2jlTfem/VGoqeGF8gYmYzHPWVgjVtkyLXscB+A4="
-        }
-      ]
-    },
-    {
-      "Route": "index.sq9gepu66l.html.gz",
-      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\obj\\Debug\\net9.0\\compressed\\0yulyb0yu6-sq9gepu66l.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "186"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bYtWHF73uhvjL0+CU9CPIKVIISoclWbvogogkw//xjs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 10:05:49 GMT"
+          "Value": "Thu, 12 Dec 2024 09:37:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1170,7 +2372,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sq9gepu66l"
+          "Value": "4u97gl9ptz"
         },
         {
           "Name": "label",
@@ -1178,7 +2380,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bYtWHF73uhvjL0+CU9CPIKVIISoclWbvogogkw//xjs="
+          "Value": "sha256-baPYYRvdeZm75cC3gDoP3tXLxXSKcDDNCOBdiNrJvI0="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\obj\\Debug\\net9.0\\compressed\\0yulyb0yu6-4u97gl9ptz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000709723208"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1408"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"baPYYRvdeZm75cC3gDoP3tXLxXSKcDDNCOBdiNrJvI0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 09:37:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"dH4ckJPwFrTjmHFa+CutW8Tt3wTOGC6yYZWIw4kNV9A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dH4ckJPwFrTjmHFa+CutW8Tt3wTOGC6yYZWIw4kNV9A="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4938"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dH4ckJPwFrTjmHFa+CutW8Tt3wTOGC6yYZWIw4kNV9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 09:37:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dH4ckJPwFrTjmHFa+CutW8Tt3wTOGC6yYZWIw4kNV9A="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\obj\\Debug\\net9.0\\compressed\\0yulyb0yu6-4u97gl9ptz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1408"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"baPYYRvdeZm75cC3gDoP3tXLxXSKcDDNCOBdiNrJvI0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 09:37:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-baPYYRvdeZm75cC3gDoP3tXLxXSKcDDNCOBdiNrJvI0="
         }
       ]
     }

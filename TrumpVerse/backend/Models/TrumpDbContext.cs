@@ -8,8 +8,6 @@ namespace TrumpVerse.Models
         public TrumpDbContext(DbContextOptions<TrumpDbContext> options) : base(options)
         {
         }
-
-        public required DbSet<TrumpThought> TrumpThoughts { get; set; }
         public required DbSet<TrumpMerchandise> TrumpMerchandise { get; set; }
     }
 }

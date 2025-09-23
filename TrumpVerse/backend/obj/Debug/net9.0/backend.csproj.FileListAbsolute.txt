@@ -133,7 +133,6 @@ C:\Users\saras\webExam\TrumpVerse\backend\obj\Debug\net9.0\backend.csproj.CoreCo
 C:\Users\saras\webExam\TrumpVerse\backend\obj\Debug\net9.0\backend.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\saras\webExam\TrumpVerse\backend\obj\Debug\net9.0\backend.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\saras\webExam\TrumpVerse\backend\obj\Debug\net9.0\scopedcss\bundle\backend.styles.css
-C:\Users\saras\webExam\TrumpVerse\backend\obj\Debug\net9.0\compressed\0yulyb0yu6-sq9gepu66l.gz
 C:\Users\saras\webExam\TrumpVerse\backend\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\saras\webExam\TrumpVerse\backend\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\saras\webExam\TrumpVerse\backend\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -149,3 +148,6 @@ C:\Users\saras\webExam\TrumpVerse\backend\obj\Debug\net9.0\refint\backend.dll
 C:\Users\saras\webExam\TrumpVerse\backend\obj\Debug\net9.0\backend.pdb
 C:\Users\saras\webExam\TrumpVerse\backend\obj\Debug\net9.0\backend.genruntimeconfig.cache
 C:\Users\saras\webExam\TrumpVerse\backend\obj\Debug\net9.0\ref\backend.dll
+C:\Users\saras\webExam\TrumpVerse\backend\obj\Debug\net9.0\backend.sourcelink.json
+C:\Users\saras\webExam\TrumpVerse\backend\bin\Debug\net9.0\package-lock.json
+C:\Users\saras\webExam\TrumpVerse\backend\obj\Debug\net9.0\compressed\0yulyb0yu6-4u97gl9ptz.gz

@@ -3,7 +3,8 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  max-width: 100%;
+  height: auto;
   pointer-events: none;
 }
 
@@ -22,10 +23,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px;
 }
 
 .App-link {
   color: #61dafb;
+  transition: color 0.3s ease;
+}
+
+.App-link:hover {
+  color: #21a1f1;
 }
 
 @keyframes App-logo-spin {
@@ -34,5 +41,15 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .App-logo {
+    height: 30vmin;
+  }
+
+  .App-header {
+    font-size: calc(12px + 3vmin);
   }
 }

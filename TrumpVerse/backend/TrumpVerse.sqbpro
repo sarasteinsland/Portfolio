@@ -29,15 +29,9 @@ VALUES
 (6, 'Winning Through Persistence', 'Success comes to those who never give up.', '2024-11-06'),
 (7, 'Be Bold', 'Boldness in action is what separates the successful from the rest.', '2024-11-07'),
 (8, 'Make America Great Again', 'We are on the path to making America stronger than ever before.', '2024-11-08');
-</sql><sql name="SQL 4">INSERT INTO TrumpMerchandise (Id, Name, Description, Price, Image)
+</sql><sql name="SQL 4*">INSERT INTO TrumpMerchandise (Id, Name, Description, Price, Image)
 VALUES
 (1, 'Trump T-shirt', 'A bold T-shirt featuring the Trump logo.', 19.99, 'trump_tshirt.png'),
-(2, 'Trump Mug', 'A coffee mug with the iconic Trump slogan.', 9.99, 'trump_mug.png'),
-(3, 'Trump Hat', 'A red hat with the &quot;Make America Great Again&quot; slogan.', 14.99, 'trump_hat.png'),
-(4, 'Trump Flag', 'A large flag featuring the Trump logo.', 24.99, 'trump_flag.png'),
-(5, 'Trump Keychain', 'A keychain with the Trump signature logo.', 4.99, 'trump_keychain.png'),
-(6, 'Trump Hoodie', 'A cozy hoodie with a bold Trump graphic on the front.', 39.99, 'trump_hoodie.png'),
-(7, 'Trump Phone Case', 'A stylish phone case with Trump branding.', 12.99, 'trump_phone_case.png'),
-(8, 'Trump Book', 'A book about Trump''s rise to power and leadership strategies.', 29.99, 'trump_book.png');
+(2, 'Trump Mug', 'A coffee mug with the iconic Trump slogan.', 9.99, 'trump_mug.png');
 
-</sql><current_tab id="1"/></tab_sql></sqlb_project>
+</sql><current_tab id="3"/></tab_sql></sqlb_project>
