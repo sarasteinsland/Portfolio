@@ -1,6 +1,6 @@
 # Sara Steinsland – Digital Portfolio
 
-Hi! I'm Sara Steinsland, currently in my 5th semester studying Frontend and Mobile Development at Kristiania University College in Bergen, Norway. I'm passionate about technology, design, and user experience — and I love combining creativity with code to build meaningful digital solutions.
+Hi! I'm Sara Steinsland, currently in my 5th semester studying Frontend and Mobile Development at Kristiania University College in Bergen, Norway. I'm passionate about technology, design, and user experience and I love combining creativity with code to build meaningful digital solutions.
 
 ## Technologies & Areas of Expertise
 
@@ -40,7 +40,7 @@ Student Leadership & Engagement
 Feel free to reach out:
 
 - LinkedIn  
-- Email: [your email here]
+- Email: Sarasteinsland03@yahoo.no
 
 “Code is creativity — and technology is the tool I use to build ideas that matter.”
 
