@@ -1,58 +1,46 @@
-# 👩‍💻 Sara Steinsland – Digital Portefølje
+# Sara Steinsland – Digital Portfolio
 
-Hei! Jeg heter **Sara Steinsland**, og studerer **Frontend- og Mobilutvikling** på 5. semester ved **Høyskolen Kristiania i Bergen**. Jeg er lidenskapelig opptatt av teknologi, design og brukeropplevelse – og elsker å kombinere kreativitet med kode.
+Hi! I'm Sara Steinsland, currently in my 5th semester studying Frontend and Mobile Development at Kristiania University College in Bergen, Norway. I'm passionate about technology, design, and user experience and I love combining creativity with code to build meaningful digital solutions.
 
----
+## Technologies & Areas of Expertise
 
-## 💻 Teknologier og fagområder
+I’ve worked with a wide range of languages and tools:
 
-Jeg har jobbet med et bredt spekter av språk og verktøy:
+- Frontend: HTML, CSS, JavaScript  
+- Mobile Development: Kotlin (Android), Swift (iOS)  
+- Backend & Systems: Java, C for Linux, Python  
+- Databases: SQL, data modeling, relational structures  
+- Algorithms & Data Structures: search, sorting, recursion, complexity analysis  
+- Terminal & CLI: used in backend and systems projects
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Mobilutvikling**: Kotlin (Android), Swift (iOS)
-- **Backend og system**: Java, C for Linux, Python
-- **Databaser**: SQL, datamodellering, relasjonsmodeller
-- **Algoritmer og datastrukturer**: søk, sortering, rekursjon, kompleksitet
-- **Terminal og CLI**: brukt i prosjekter og backend-fag
+## Projects & Experience
 
----
+Rick and Morty App (Kotlin)  
+A mobile app using Kotlin and API integration to display characters and episodes from the Rick and Morty universe.
 
-## 🧠 Prosjekter og erfaring
+Fullstack Web Development  
+Built web applications using React and CSS, with basic backend functionality, including a terminal-based data project themed around political data processing.
 
-Her er noen av prosjektene og rollene jeg har hatt:
+Student Leadership & Engagement  
+- Head of the running group at Kristiania Bergen  
+- Booking coordinator for the student event team  
+- Former social media manager for Cloud, the IT student association
 
-### 📱 Rick and Morty App (Kotlin)
-Et mobilprosjekt hvor vi brukte **Kotlin** og **API-integrasjon** for å vise karakterer og episoder fra Rick and Morty-universet.
+## Portfolio Highlights
 
-### 🌐 Webutvikling med frontend og backend
-I webfaget jobbet vi med **React**, **CSS**, og enkel backend – inkludert et terminalbasert prosjekt med tema rundt **Trump** og datahåndtering.
+| Project              | Technology           | Description                                      |
+|----------------------|----------------------|--------------------------------------------------|
+| Portfolio-sara       | React + TailwindCSS  | Personal portfolio showcasing my work and skills  
+| Rick and Morty App   | Kotlin               | API-based mobile app with character display  
+| Terminal Project     | CLI + Backend        | Data handling and display via terminal interface  
+| Design System        | TailwindCSS          | UI kit with reusable components and color palette
 
-### 🎽 Studentengasjement
-- Leder for **løpegruppen** ved Høyskolen Kristiania Bergen
-- Bookingansvarlig i **eventavdelingen**
-- Tidligere SoMe-ansvarlig i **Cloud**, linjeforeningen for IT-studenter
+## Contact
 
----
+Feel free to reach out:
 
-## 📁 Portefølje og prosjekter
+- LinkedIn: Sara Steinsland
+- Email: Sarasteinsland03@yahoo.no
 
-| Prosjekt | Teknologi | Beskrivelse |
-|---------|-----------|-------------|
-| Portfolio-sara | React + TailwindCSS | Min personlige portefølje |
-| Rick and Morty App | Kotlin | API-basert mobilapp med karaktervisning |
-| Terminalprosjekt | CLI + Backend | Datahåndtering og visning via terminal |
-| Designsystem | TailwindCSS | UI-kit med komponenter og fargepalett |
-
----
-
-## 📬 Kontakt
-
-Du kan nå meg på:
-
-- 💼 [LinkedIn](https://linkedin.com/in/sarasteinsland)
-- 📧 [E-post](mailto:sarasteinsland03@yahoo.no)
-
----
-
-> “Kode er kreativitet – og teknologi er verktøyet jeg bruker for å bygge ideer som betyr noe.”
+“Code is creativity — and technology is the tool I use to build ideas that matter.”
 
