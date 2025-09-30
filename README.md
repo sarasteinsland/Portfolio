@@ -19,7 +19,7 @@ Rick and Morty App (Kotlin)
 A mobile app using Kotlin and API integration to display characters and episodes from the Rick and Morty universe.
 
 Fullstack Web Development  
-Built web applications using React and CSS, with basic backend functionality — including a terminal-based data project themed around political data processing.
+Built web applications using React and CSS, with basic backend functionality, including a terminal-based data project themed around political data processing.
 
 Student Leadership & Engagement  
 - Head of the running group at Kristiania Bergen  
@@ -39,7 +39,7 @@ Student Leadership & Engagement
 
 Feel free to reach out:
 
-- LinkedIn  
+- LinkedIn: Sara Steinsland
 - Email: Sarasteinsland03@yahoo.no
 
 “Code is creativity — and technology is the tool I use to build ideas that matter.”
