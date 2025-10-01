@@ -20,7 +20,7 @@ The assignment focused on designing, implementing, and analyzing algorithms to s
 
 ## 🤝 Collaboration
 
-This project was completed as part of a group of [X] students. The collaborative process involved shared design discussions, code reviews, and division of implementation tasks. The final report reflects joint contributions and collective problem-solving.
+This project was completed as part of a group of 3 students. The collaborative process involved shared design discussions, code reviews, and division of implementation tasks. The final report reflects joint contributions and collective problem-solving.
 
 ## 📄 Deliverables
 
