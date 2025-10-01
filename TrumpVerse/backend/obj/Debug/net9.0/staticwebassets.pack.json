@@ -1,0 +1,113 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\462560602_1314908849860726_5611536537170590765_n.jpg",
+      "PackagePath": "staticwebassets\\images\\462560602_1314908849860726_5611536537170590765_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Christ_the_Redeemer_Statue_PNG_Clip_Art-2770.png",
+      "PackagePath": "staticwebassets\\images\\Christ_the_Redeemer_Statue_PNG_Clip_Art-2770.png"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Frozen img.webp",
+      "PackagePath": "staticwebassets\\images\\Frozen img.webp"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\IMG_9509.JPG",
+      "PackagePath": "staticwebassets\\images\\IMG_9509.JPG"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Katrine.jpg",
+      "PackagePath": "staticwebassets\\images\\Katrine.jpg"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\Merch\\trumpppp.png",
+      "PackagePath": "staticwebassets\\images\\Merch\\trumpppp.png"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\bil.png",
+      "PackagePath": "staticwebassets\\images\\bil.png"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\hund.png",
+      "PackagePath": "staticwebassets\\images\\hund.png"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\kiwihug-P_GeWr5wNQc-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\kiwihug-P_GeWr5wNQc-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\mario.png",
+      "PackagePath": "staticwebassets\\images\\mario.png"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\prfilbilde_sara.jpeg",
+      "PackagePath": "staticwebassets\\images\\prfilbilde_sara.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump.png",
+      "PackagePath": "staticwebassets\\images\\trump.png"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_book.png",
+      "PackagePath": "staticwebassets\\images\\trump_book.png"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_flag.png",
+      "PackagePath": "staticwebassets\\images\\trump_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_hat.png",
+      "PackagePath": "staticwebassets\\images\\trump_hat.png"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_hoodie.png",
+      "PackagePath": "staticwebassets\\images\\trump_hoodie.png"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_keychain.png",
+      "PackagePath": "staticwebassets\\images\\trump_keychain.png"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_mug.png",
+      "PackagePath": "staticwebassets\\images\\trump_mug.png"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_phone_case.png",
+      "PackagePath": "staticwebassets\\images\\trump_phone_case.png"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trump_tshirt.png",
+      "PackagePath": "staticwebassets\\images\\trump_tshirt.png"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\images\\trumpppp.png",
+      "PackagePath": "staticwebassets\\images\\trumpppp.png"
+    },
+    {
+      "Id": "C:\\Users\\saras\\webExam\\TrumpVerse\\backend\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.backend.props",
+      "PackagePath": "build\\backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.backend.props",
+      "PackagePath": "buildMultiTargeting\\backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.backend.props",
+      "PackagePath": "buildTransitive\\backend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
