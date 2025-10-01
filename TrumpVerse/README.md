@@ -24,5 +24,25 @@ TrumpVerse is a full-stack web application designed to manage merchandise items 
 - **View Merchandise**: Browse all products in a responsive grid
 - **Accessibility**: Semantic HTML, keyboard navigation, alt text, and high contrast design
 
+## 🎓 Course Accreditation
+- **Course**: DS3103 – Web Development  
+- **Institution**: Kristiania University College, Bergen  
+- **Semester**: Fall 2024  
+- **Grade**: A  
+
+
 ## 🧠 Project Structure
+TrumpVerse/
+├── frontend/              # React application with Tailwind CSS and Axios
+│   ├── components/        # Reusable UI components
+│   ├── pages/             # Home, Merch, Add Merch views
+│   ├── assets/            # Static files and images
+│   └── App.jsx            # Main application entry point
+├── backend/               # ASP.NET Core Web API
+│   ├── Controllers/       # MerchController and UploadImageController
+│   ├── Models/            # Data models for merchandise items
+│   ├── Data/              # Database context and configuration
+│   └── Program.cs         # Application setup and middleware
+├── TrumpVerse.sln         # Solution file for backend
+└── README.md              # Project documentation
 
