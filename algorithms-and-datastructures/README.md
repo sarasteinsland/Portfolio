@@ -38,6 +38,6 @@ This project was completed as part of a group assignment. Responsibilities were 
 
 ## 🧠 Learning Outcomes
 
-This project reflects a rigorous approach to algorithmic thinking, emphasizing performance, correctness, and clarity. It demonstrates the ability to translate theoretical concepts into practical, maintainable Java code — a core competency for advanced studies in Computer Science.
+This project reflects a rigorous approach to algorithmic thinking, emphasizing performance, correctness, and clarity. It demonstrates the ability to translate theoretical concepts into practical, maintainable Java code, a core competency for advanced studies in Computer Science.
 
 
