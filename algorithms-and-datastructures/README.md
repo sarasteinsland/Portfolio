@@ -29,7 +29,7 @@ This project was completed as part of a group assignment. Responsibilities were 
 - `src/` – Java source code implementing the algorithms discussed
 - `Model/City.java` – Custom data structure used for sorting and analysis
 
-## 🎓 Academic Context
+## 🎓 Academic Context and Evaluation
 
 - **Course**: PG4200 – Algorithms and Data Structures  
 - **Institution**: Kristiania University College, Bergen  
