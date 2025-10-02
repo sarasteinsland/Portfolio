@@ -12,7 +12,7 @@ This repository contains the final exam submission for *PGR208 – Android Progr
 - MVVM architecture  
 - LiveData / ViewModel  
 - Navigation Component  
-- SQLite or Room (if used)  
+- SQLite 
 
 ---
 
