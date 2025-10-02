@@ -54,7 +54,3 @@ Dør-til-Dør-Exam/
 ├── Vedlegg 2 Agile - Gantt.pdf    # Agile milestones and Gantt chart timeline  
 └── README.md                      # Project documentation (English)
 
----
-
-📌 Purpose of This Repository  
-This repository serves as a public archive of my academic work in IT Project Management. It showcases my ability to apply project methodologies, collaborate effectively, and reflect critically on my own performance. It may also serve as a reference for future employers or collaborators interested in my approach to leadership, planning, and communication.
