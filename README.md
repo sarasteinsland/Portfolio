@@ -8,6 +8,8 @@
 
 I'm a recent graduate from Kristiania University College with a Bachelor's degree in Frontend and Mobile Development.
 
+I am now doing my Masters in Media and interaction design at University in Bergen.
+
 I enjoy building user-friendly applications and combining technology, design, and usability to create meaningful digital solutions.
 
 ## 🛠️ Technologies
