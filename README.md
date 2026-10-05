@@ -63,5 +63,6 @@ Personal portfolio developed with React and TailwindCSS.
 ## 📫 Contact
 
 - LinkedIn: www.linkedin.com/in/sarasteinsland
-- Email: sarasteinsland03@yahoo.no
+- Email: steinslandsara@outlook.com
+  
 
